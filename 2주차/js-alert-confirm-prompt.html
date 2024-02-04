@@ -1,0 +1,32 @@
+<html>
+    <head> 
+        <title>브라우저 탭에 보이는 제목 </title> 
+<body>
+    <div id="div-1" onClick="alert('div-1 태그입니다')">div-1 태그</div>
+    <input
+    id="button-1"
+    type="button"
+    value="button-1 버튼"
+    onClick="alert('button-1 버튼입니다')"
+    />
+    
+    <div id="div-2">div-2태그</div>
+    <input
+    id="button-2"
+    type="button"
+    value="button-1 버튼"/>
+    <input id="button-1"
+           type="text"
+
+</body>
+<script>
+    document.getElementById('button-1').onmousemove=()=>{
+        alert('안녕하세요')
+     }
+   document.getElementById('textbox-1').onchange=(e)=>{
+    console.log(event.target.value)
+   }
+</script>
+ 
+    </head>
+</html>
